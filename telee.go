@@ -36,8 +36,8 @@ const VERSION = "3.0" // Enhanced honeypot detection 2026
 var (
 	successfulIPs       = make(map[string]struct{})
 	mapMutex            sync.Mutex
-	botToken            = "8107747199:AAEOt7SDd7IFsOx2mrW-rVpDGHTOAuNn1YY"
-	chatIDs             = []int64{7567975053}
+	botToken            = "8734427220:AAHj-YrWp0Gy3AbfLfLepYml9LkVh89h4hY"
+	chatIDs             = []int64{7520171626}
 	concurrentPerWorker int
 	successChan = make(chan Success, 200)
 )
